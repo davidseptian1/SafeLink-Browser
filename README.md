@@ -20,28 +20,30 @@ Untuk menginstal ekstensi ini, Anda dapat mengikuti salah satu cara berikut:
 
     Chrome Web Store: Jika sudah dipublikasikan, Anda bisa menemukannya di Chrome Web Store.
     Instal Secara Manual:
-        Download file ZIP dari repository GitHub.
-        Buka chrome://extensions/ di browser Chrome.
-        Aktifkan Developer mode di pojok kanan atas.
-        Klik Load unpacked, pilih folder yang telah diekstrak.
+        1. Download file ZIP dari repository GitHub.
+        2. Buka chrome://extensions/ di browser Chrome.
+        3. Aktifkan Developer mode di pojok kanan atas.
+        4. Klik Load unpacked, pilih folder yang telah diekstrak.
 
 2. Mengaktifkan Ekstensi
 
-Setelah ekstensi terpasang, ekstensi ini akan langsung bekerja secara otomatis untuk memblokir situs yang mencurigakan saat Anda mengunjungi halaman-halaman berbahaya.
+Setelah ekstensi terpasang, ekstensi ini akan langsung bekerja secara otomatis untuk 
+memblokir situs yang mencurigakan saat Anda mengunjungi halaman-halaman berbahaya.
 3. Memeriksa Status Link
 
-Klik ikon ekstensi di browser untuk melihat status keamanan link yang sedang Anda buka (apakah link tersebut aman atau terdeteksi berbahaya).
+Klik ikon ekstensi di browser untuk melihat status keamanan link yang sedang Anda buka 
+(apakah link tersebut aman atau terdeteksi berbahaya).
 🔧 Teknologi yang Digunakan
 
-    Google Safe Browsing API: Untuk memverifikasi apakah suatu URL terdaftar dalam database ancaman Google.
-    Chrome WebRequest API: Digunakan untuk memblokir permintaan ke URL yang mencurigakan berdasarkan kata kunci.
-    HTML, CSS, JavaScript: Digunakan untuk membangun antarmuka pengguna dan logika interaksi ekstensi.
+    1. Google Safe Browsing API: Untuk memverifikasi apakah suatu URL terdaftar dalam database ancaman Google.
+    2. Chrome WebRequest API: Digunakan untuk memblokir permintaan ke URL yang mencurigakan berdasarkan kata kunci.
+    3. HTML, CSS, JavaScript: Digunakan untuk membangun antarmuka pengguna dan logika interaksi ekstensi.
 
 📢 Izin yang Diperlukan
 
-    webRequest: Memblokir URL yang berpotensi berbahaya.
-    activeTab: Memungkinkan untuk memeriksa status keamanan halaman yang aktif.
-    storage: Untuk menyimpan pengaturan ekstensi.
+    1. webRequest: Memblokir URL yang berpotensi berbahaya.
+    2. activeTab: Memungkinkan untuk memeriksa status keamanan halaman yang aktif.
+    3. storage: Untuk menyimpan pengaturan ekstensi.
 
 🛠️ Cara Berkontribusi
 
@@ -53,13 +55,14 @@ Jika Anda ingin berkontribusi pada proyek ini, ikuti langkah-langkah berikut:
 
 Ide Kontribusi:
 
-    Menambahkan kategori pemblokiran situs lainnya (misal, situs berbahaya lainnya).
-    Meningkatkan tampilan notifikasi dengan animasi atau gaya baru.
-    Mengoptimalkan dan memperbaiki bug.
+    1. Menambahkan kategori pemblokiran situs lainnya (misal, situs berbahaya lainnya).
+    2. Meningkatkan tampilan notifikasi dengan animasi atau gaya baru.
+    3. Mengoptimalkan dan memperbaiki bug.
 
 📝 Catatan Pengguna
 
-    Jika ekstensi mendeteksi ancaman pada suatu halaman, Anda akan diberitahu dengan pemberitahuan pop-up yang mencantumkan jenis ancaman (misal, malware, phishing, dll.).
+    Jika ekstensi mendeteksi ancaman pada suatu halaman, 
+    Anda akan diberitahu dengan pemberitahuan pop-up yang mencantumkan jenis ancaman (misal, malware, phishing, dll.).
     Ekstensi ini memblokir iklan judi atau kasino yang tidak sesuai dengan pedoman keamanan.
 
 📜 Lisensi
