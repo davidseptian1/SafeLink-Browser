@@ -1,4 +1,4 @@
-# SafeLink-Browser
+# SafeLink-Browser ( Use Branch mainV1 )
 
 SafeLink Blocker adalah ekstensi Chrome yang melindungi Anda dari situs web berbahaya dengan memblokir link yang mencurigakan, seperti iklan judi dan malware. Ekstensi ini juga memanfaatkan Google Safe Browsing API untuk memeriksa apakah suatu link aman atau berpotensi membahayakan.
 🚀 Fitur Utama
