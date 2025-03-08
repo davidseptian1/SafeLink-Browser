@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "*judi*",
+        "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "xmlhttprequest"]
+      }
+    },
+    {
+      "id": 2,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "*casino*",
+        "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "xmlhttprequest"]
+      }
+    },
+    {
+      "id": 3,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "*betting*",
+        "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "xmlhttprequest"]
+      }
+    },
+    {
+      "id": 4,
+      "action": {
+        "type": "allow"
+      },
+      "condition": {
+        "urlFilter": "www.google.com",
+        "resourceTypes": ["main_frame"]
+      }
+    }
+  ]
+  
